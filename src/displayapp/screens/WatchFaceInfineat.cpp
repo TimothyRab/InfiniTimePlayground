@@ -415,8 +415,8 @@ void WatchFaceInfineat::Refresh() {
       lv_label_set_text(labelTimeAmPm, ampmChar);
     }
     lv_label_set_text_fmt(labelHour, "%02d", hour);
-    lv_label_set_text_fmt(labelMinutes, "%02d", minute);
 
+    lv_label_set_text_fmt(labelMinutes, "%02d", minute);
     if (settingsController.GetClockType() == Controllers::Settings::ClockType::H12) {
       lv_obj_align(labelTimeAmPm, timeContainer, LV_ALIGN_OUT_RIGHT_TOP, 0, 10);
       lv_obj_align(labelHour, timeContainer, LV_ALIGN_IN_TOP_MID, 0, 5);

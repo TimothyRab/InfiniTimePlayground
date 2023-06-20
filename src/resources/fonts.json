@@ -23,6 +23,30 @@
       "format": "bin",
       "target_path": "/fonts/"
    },
+   "bebas_110" : {
+      "sources": [
+         {
+            "file": "fonts/BebasNeue-Regular.ttf",
+            "symbols": "0123456789:"
+         }
+      ],
+      "bpp": 1,
+      "size": 110,
+      "format": "bin",
+      "target_path": "/fonts/"
+   },
+   "bebas_40" : {
+      "sources": [
+         {
+            "file": "fonts/BebasNeue-Regular.ttf",
+            "symbols": "0123456789 MONTUEWEDTHUFRISATSUN"
+         }
+      ],
+      "bpp": 1,
+      "size": 40,
+      "format": "bin",
+      "target_path": "/fonts/"
+   },
    "lv_font_dots_40": {
       "sources": [
          {
